@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 h1,
@@ -7,9 +9,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h24 {
     font-weight: 100;
 }
+
 
 hr {
     border-color: #fff;
@@ -24,7 +28,12 @@ section {
 }
 
 section h2 {
-    font-size: 2.25rem;
+    font-size: 5.25rem;
+    line-height: 2rem;
+}
+
+section h24 {
+    font-size: 1.8rem;
     line-height: 2rem;
 }
 
@@ -60,18 +69,31 @@ section h2 {
     color: #fff;
 }
 
+
+header {
+    background-image: url(IMG_1484);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: stretch; 
+    background-position: center;
+
+}
+    
+  
+
 header.masthead {
     padding-top: calc(3rem + 56px);
     padding-bottom: 6rem;
 }
 
 header.masthead h1 {
-    font-size: 3rem;
+    font-size: 8rem;
     line-height: 3rem;
 }
 
 header.masthead h2 {
-    font-size: 1.3rem;
+    font-size: 4.0rem;
 }
 
 @media (min-width: 992px) {
@@ -91,7 +113,7 @@ header.masthead h2 {
 .brand-statement,
 .about-me {
     margin-top: 50px;
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: 100;
     line-height: 1.5;
 }
@@ -114,19 +136,19 @@ header.masthead h2 {
 .portfolio .portfolio-item .portfolio-item-caption {
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
-    opacity: 0;
-    background-color: rgba(48, 51, 107, 0.7);
+    /* opacity: 0; */
+    background-color: rgba(11, 11, 20, 0.7);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-    opacity: 1;
+    opacity: 0;
 }
 
 .portfolio
     .portfolio-item
     .portfolio-item-caption
     .portfolio-item-caption-content {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 
 @media (min-width: 576px) {
