@@ -28,7 +28,7 @@ section {
 }
 
 section h2 {
-    font-size: 4.5rem;
+    font-size: 5.25rem;
     line-height: 2rem;
 }
 
@@ -70,8 +70,8 @@ section h24 {
 }
 
 
-.header {
-    background-image: url("dog.jpg");
+header {
+    background-image: url(IMG_1484);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -79,9 +79,7 @@ section h24 {
     background-position: center;
 
 }
-
-
-
+    
   
 
 header.masthead {
@@ -124,16 +122,9 @@ header.masthead h2 {
     margin-top: 50px;
 }
 
-.portfolio .container {
-    column-count: 2;
-    align-content: center;
-    
-}
-
-
-/* .portfolio {
+.portfolio {
     margin-bottom: -15px;
-} */
+}
 
 .portfolio .portfolio-item {
     position: relative;
@@ -248,7 +239,7 @@ a:active {
 }
 
 .close-link:focus,
-.close-link:hover, 
+.close-link:hover,
 .close-link:active {
     color: #30336b;
 }
