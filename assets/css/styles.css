@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
     width: 100%;
+    background-color: white; 
 }
 
 h1,
@@ -14,9 +15,8 @@ h24 {
     font-weight: 100;
 }
 
-
 hr {
-    border-color: #fff;
+    border-color: rgb(60, 239, 236);
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     margin-left: auto;
@@ -45,7 +45,7 @@ section h24 {
 }
 
 .bg-dark {
-    background-color: #2f3542 !important;
+    background-color: #000000 !important;
 }
 
 .btn-social {
@@ -71,7 +71,7 @@ section h24 {
 
 
 .header {
-    background-image: url("dog.jpg");
+    background-image: url("cherry.jpg");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -112,6 +112,10 @@ header.masthead h2 {
     }
 }
 
+.brand-statement {
+    margin-left: 10%;
+}
+
 .brand-statement,
 .about-me {
     margin-top: 50px;
@@ -127,7 +131,7 @@ header.masthead h2 {
 .portfolio .container {
     column-count: 2;
     align-content: center;
-    
+    font-weight: bold; 
 }
 
 
@@ -146,7 +150,8 @@ header.masthead h2 {
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
     /* opacity: 0; */
-    background-color: rgba(11, 11, 20, 0.7);
+    /* Project Button Color */
+    background-color: rgb(130, 130, 130);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -157,7 +162,8 @@ header.masthead h2 {
     .portfolio-item
     .portfolio-item-caption
     .portfolio-item-caption-content {
-    font-size: 1.0rem;
+    font-size: .85rem;
+    text-transform: none;
 }
 
 @media (min-width: 576px) {
@@ -240,7 +246,7 @@ header.masthead h2 {
 a:focus,
 a:hover,
 a:active {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .close-link {
