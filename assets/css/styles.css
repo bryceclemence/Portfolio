@@ -15,13 +15,24 @@ h24 {
     font-weight: 100;
 }
 
-hr {
+hr  {
     border-color: rgb(60, 239, 236);
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
-    margin-left: auto;
+    /* margin-left: 40%; */
     margin-right: auto;
 }
+
+
+
+/* hr {
+    border-color: rgb(60, 239, 236);
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 40%; 
+    margin-right: auto;
+}
+*/
 
 section {
     padding: 6rem 0;
@@ -92,10 +103,12 @@ header.masthead {
 header.masthead h1 {
     font-size: 8rem;
     line-height: 3rem;
+    margin-left: 40%;
 }
 
 header.masthead h2 {
     font-size: 4.0rem;
+    margin-left: 40%;
 }
 
 @media (min-width: 992px) {
@@ -104,8 +117,9 @@ header.masthead h2 {
         padding-bottom: 6rem;
     }
     header.masthead h1 {
-        font-size: 4.75em;
+        font-size: 4.0em;
         line-height: 4rem;
+        margin-left: 40%;
     }
     header.masthead h2 {
         font-size: 1.75em;
@@ -113,16 +127,24 @@ header.masthead h2 {
 }
 
 .brand-statement {
-    margin-left: 10%;
+    margin-left: 50%;
 }
 
-.brand-statement,
+.brand-statement {
+    margin-top: 50px;
+    font-size: 1.0em;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-left: 40%;
+}
+
 .about-me {
     margin-top: 50px;
     font-size: 1.0em;
     font-weight: 100;
     line-height: 1.5;
 }
+
 
 .skills-row {
     margin-top: 50px;
@@ -208,10 +230,14 @@ header.masthead h2 {
     .portfolio-modal .portfolio-modal-dialog h2 {
         font-size: 3rem;
     }
+    video {
+        align-items: center;
+    }
 }
 
 .education {
     margin-bottom: -15px;
+    margin: auto;
 }
 
 .education .location {
@@ -230,6 +256,10 @@ header.masthead h2 {
 
 .education .credential-divider {
     border-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: auto;
 }
 
 .footer {
